@@ -1,0 +1,27 @@
+.navbar {
+  background: #046350 !important;
+}
+
+.bg-dark {
+  background: #046350 !important;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 25vh;
+  object-fit: cover;
+}
+
+#map {
+  height: 450px;
+}
+
+@media (min-widht: 768px) {
+  .card-img-top {
+    height: 40vh;
+  }
+
+  #map {
+    height: 100%;
+  }
+}
